@@ -38,9 +38,9 @@ function getIncidents() {
         }
     }).error(function() {
         for (var i = 0; i < qvm.statuses().length; i++) {
-            qvm.status()[i].status().value("unknown");
+            qvm.statuses()[i].status.value("unknown");
         }
     });
 
-    setTimeout(getIncidents, 100000);
+    setTimeout(getIncidents, 10000);
 }
