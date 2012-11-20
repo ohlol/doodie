@@ -12,4 +12,5 @@ Setup
     PAGERDUTY_SUBDOMAIN="<subdomain here>"
     EOF
     
-    $ env FLASK_DEBUG=true ./manage.py runserver
+    $ env FLASK_DEBUG=true ./manage.py runserver &
+    $ open http://localhost:7777/incidents
