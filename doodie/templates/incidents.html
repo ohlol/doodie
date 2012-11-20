@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block title %}Pagerdoodie Incidents{% endblock %}
+{% block head %}
+  {{ super() }}
+  <script>
+    getIncidents();
+  </script>
+{% endblock %}
+{% block content %}
+<h1>Unresolved Incidents</h1>
+<!-- ko foreach: { data: statuses, as: 'status' } -->
+<div class="row status-row">
+  <span class="quick-label span3" data-bind="text: status.label"></span>
+  <span class="quick-data" data-bind="text: status.value"></span>
+</div>
+<!-- /ko -->
+{% endblock %}

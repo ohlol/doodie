@@ -1,0 +1,21 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.status-row {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.quick-label {
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.quick-data {
+    font-size: 80px;
+    color: #F5B800;
+}
