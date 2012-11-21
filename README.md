@@ -3,6 +3,8 @@ Doodie
 
 An pagerduty dashboard.
 
+![Screenshot](https://raw.github.com/ohlol/doodie/master/doodie.png)
+
 Setup
 =====
 
